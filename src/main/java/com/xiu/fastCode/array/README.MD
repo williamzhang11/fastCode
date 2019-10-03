@@ -4,4 +4,4 @@
 
 |题目类型|
 | :------ |
-| [two-sum leetcode001 ](src/main/java/com/xiu/fastCode/array/twosum)|
+| [two-sum leetcode001 ](./src/main/java/com/xiu/fastCode/array/twosum/)|
