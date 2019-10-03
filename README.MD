@@ -3,4 +3,4 @@
 
 |题目类型|
 | :------ |
-| [数组 ](src/main/java/com/xiu/fastCode/array/)|
+| [数组 ](./src/main/java/com/xiu/fastCode/array/)|
