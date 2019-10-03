@@ -4,4 +4,4 @@
 
 |题目类型|
 | :------ |
-| [two-sum leetcode001 ](./array/twosum/)|
+| [two-sum leetcode001 ](./twosum/)|
