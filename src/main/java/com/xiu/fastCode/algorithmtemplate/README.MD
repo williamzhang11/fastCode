@@ -1,6 +1,6 @@
 # 算法模板
 
-## 递归
+## 1.递归
 
 ### 递归的三大要素
 
@@ -9,6 +9,8 @@
 第二要素：寻找递归结束条件
 
 第三要素：找出函数的等价关系式
+https://www.cnblogs.com/myseries/p/10856518.html
+
 
 ### 递归模板
 
@@ -25,7 +27,7 @@ if(level > MAX_LEVEL):
 process_data(level, data...)
 
 
-# 下探一层
+# 下探一层。下探一层时，一定要记得携带当前层的标记
 self.recursion(level+1, p1, ...)
 
 
@@ -33,4 +35,28 @@ self.recursion(level+1, p1, ...)
 reverse_state(level)
 ```
 
-https://www.cnblogs.com/myseries/p/10856518.html
+
+## 2.二分法模板
+
+```
+int search(int[] array, int array){
+
+	int left = 0;
+	int right = array.length - 1;
+	while(left <= right){
+		int mid = left +(right-left)/2;
+		if(array[mid] == target){
+			break or return result;
+		}else if (array[mid] < target){
+			left = mid +1;
+		}else {
+			right = mid -1;
+		}
+	}
+
+}
+
+
+```
+
+

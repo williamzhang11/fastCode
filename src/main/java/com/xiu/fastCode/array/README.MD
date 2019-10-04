@@ -4,4 +4,7 @@
 
 |题目|
 | :------ |
-| [two-sum leetcode001 ](./twosum/)|
+| [two-sum(两数之和) leetcode001 ](./twosum/)|
+| [two-sum-ii-input-array-is-sorted(两数之和 II - 输入有序数组) leetcode167 ](./twosumiiinputarrayissorted/)|
+
+

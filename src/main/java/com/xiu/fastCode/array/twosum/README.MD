@@ -1,4 +1,4 @@
-# two sum
+# two sum(两数之和)
 
 [leetcode001]( https://leetcode-cn.com/problems/two-sum/)
 
