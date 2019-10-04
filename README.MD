@@ -3,4 +3,5 @@
 
 |题目类型|
 | :------ |
+| [算法模板 ](./src/main/java/com/xiu/fastCode/algorithmtemplate/)|
 | [数组 ](./src/main/java/com/xiu/fastCode/array/)|
