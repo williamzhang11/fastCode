@@ -19,8 +19,8 @@
 
 
 计算 value= target - nums[k]+nums[i]+nums[j]：
--	> 0,j--
--	<0,i++
+-	< 0,j--
+-	> 0,i++
 - 记录使abs(value)最小值时的nums[k]+nums[i]+nums[j]和。
 
 时间复杂度O(N^2)
