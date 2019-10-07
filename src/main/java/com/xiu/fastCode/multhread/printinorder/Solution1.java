@@ -5,7 +5,7 @@ public class Solution1 {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		final Foo5 foo = new Foo5();
+		final Foo4 foo = new Foo4();
 		
 		
 		new Thread(new Runnable() {
