@@ -4,7 +4,7 @@ public class Solution1 {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		final FooBar foo = new FooBar(10);
+		final FooBar3 foo = new FooBar3(10);
 
 		new Thread(new Runnable() {
 
