@@ -6,3 +6,4 @@
 | [算法模板 ](./src/main/java/com/xiu/fastCode/algorithmtemplate/)|
 | [数组 ](./src/main/java/com/xiu/fastCode/array/)|
 | [多线程 ](./src/main/java/com/xiu/fastCode/multhread/)|
+| [字符串 ](./src/main/java/com/xiu/fastCode/string/)|
