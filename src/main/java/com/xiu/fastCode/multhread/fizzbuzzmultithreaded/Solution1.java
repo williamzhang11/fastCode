@@ -1,18 +1,18 @@
-package com.xiu.fastCode.multhread.printinorder;
+package com.xiu.fastCode.multhread.fizzbuzzmultithreaded;
 
 public class Solution1 {
 
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		final Foo3 foo = new Foo3();
+		final FizzBuzz foo = new FizzBuzz(15);
 		
 		
 		new Thread(new Runnable() {
 			
 			public void run() {
 				try {
-					foo.third(null);
+					foo.buzz(null);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -24,7 +24,7 @@ public class Solution1 {
 			
 			public void run() {
 				try {
-					foo.second(null);
+					foo.fizz(null);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -36,7 +36,19 @@ public class Solution1 {
 			
 			public void run() {
 				try {
-					foo.first(null);
+					foo.fizzbuzz(null);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}).start();
+		
+		new Thread(new Runnable() {
+			
+			public void run() {
+				try {
+					foo.number(null);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
