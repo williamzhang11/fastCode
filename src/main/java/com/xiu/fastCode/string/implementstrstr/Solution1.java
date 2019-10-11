@@ -34,6 +34,9 @@ public class Solution1 {
     public static void main(String[] args) {
     	Solution1 solution = new Solution1();
     	
+    	String a = "3123";
+    	System.out.println("312:"+a.indexOf("23"));
+    	
     	 System.out.println(solution.strStr("abcdefg", "cd"));
 	}
 }
