@@ -10,10 +10,15 @@
 | [isomorphic-strings(同构字符串) leetcode205 ](./isomorphicstrings/)|
 | [valid-palindrome(验证回文串) leetcode125 ](./validpalindrome/)|
 | [valid-palindrome-ii(验证回文字符串 Ⅱ) leetcode680 ](./validpalindromeii/)|
-| [palindrome-number(回文数) leetcode9 ](./palindromenumber/)|
 | [reverse-string(反转字符串) leetcode344 ](./reversestring/)|
-| [reverse-vowels-of-a-string(反转字符串中的元音字母) leetcode345 ](./reversevowelsofastring/)|
 | [longest-word-in-dictionary-through-deleting(通过删除字母匹配到字典里最长单词) leetcode524 ](./longestwordindictionarythroughdeleting/)|
 | [longest-substring-without-repeating-characters(无重复字符的最长子串) leetcode3 ](./longestsubstringwithoutrepeatingcharacters/)|
+| [count-binary-substrings(计数二进制子串) leetcode696 ](./countbinarysubstrings/)|
+| [reverse-words-in-a-string(翻转字符串里的单词) leetcode151 ](./reversewordsinastring/)|
+| [string-to-integer-atoi(字符串转换整数) leetcode8 ](./stringtointegeratoi/)|
+
+
+
+
 
 
