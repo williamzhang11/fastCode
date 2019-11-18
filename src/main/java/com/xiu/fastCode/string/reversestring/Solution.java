@@ -22,12 +22,15 @@ public class Solution {
     }
     
     public static void main(String[] args) {
-		Solution solution = new Solution();
+/*		Solution solution = new Solution();
 		
 		char [] str = new char[] {'h','e','l','l','o'};
 		solution.reverseString(str);
-		System.out.println(str);
+		System.out.println(str);*/
 		
-		
+	System.out.println(4>> 1);	
+	System.out.println(4<< 1);	
+	
+	
 	}
 }
