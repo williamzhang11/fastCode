@@ -31,7 +31,7 @@ public class InsertSort {
 	}
 	public static void main(String[] args) {
 		
-		int [] a = {7,10,5,11}; 
+		int [] a = {7,10,5,11,1}; 
 		InsertSort insertSort = new InsertSort();
 		insertSort .sort(a);
 		
