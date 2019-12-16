@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.imageio.ImageTypeSpecifier;
 
 /**
- * 找出最大值，最小值，将最大值与最小值之间的数进行分桶，
+ * 找出最大值，最小值，将最大值与最小值之间的数进行分桶
  * 
  * 将这些数，映射到桶中，然后对桶中元素分别进行排序
  * 
